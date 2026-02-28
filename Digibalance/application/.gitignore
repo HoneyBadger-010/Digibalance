@@ -1,0 +1,39 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Kotlin build
+/.kotlin/
+
+# Documentation files (development notes)
+*.md
+!README.md
+!BUILD_INSTRUCTIONS.md
+!QUICK_START.md
+
+# SQL scripts (keep only essential ones)
+*.sql
+!SUPABASE_SETUP_COMPLETE.sql
+
+# Batch/shell scripts
+*.bat
+*.sh
+!build_and_install.sh
+!build_and_install.bat
+
+# Test data
+/mock_data/
+/test_scripts/
+/tiny_sql/
+
+# Logs
+*.log
+*.txt
+!START_HERE.txt

@@ -1,0 +1,35 @@
+# Android
+android/local.properties
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+*.apk
+*.aab
+
+# Kotlin
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Build files
+build/
+.gradle/
+out/
+
+# Android Studio
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Mac
+.DS_Store
+
+# Supabase keys (backup location if stored outside local.properties)
+supabase_keys.txt
+
+# Logs
+*.log
+
